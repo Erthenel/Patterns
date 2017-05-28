@@ -1,4 +1,6 @@
-Examples of programming patterns
+Examples of programming patterns.
+
+Some of them are based on Eric & Elisabeth Freeman's book "Head First - Design Patterns".
 
 # OO Basics
 1. Abstraction
