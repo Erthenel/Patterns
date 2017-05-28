@@ -9,5 +9,5 @@ intellij.classes
 target
 report
 .DS_STORE
-.gradle/3.5/taskHistory
+.gradle/3.5/taskHistory/
 build/
