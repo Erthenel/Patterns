@@ -9,8 +9,7 @@ Examples of programming patterns
 # OO Principles
 1. Encapsulate what varies.
 2. Favor composition over inheritence.
-3. Abstraction Encapsulation Polymorphism Inheritance
-4. Program to interfaces, not implementations.
+3. Program to interfaces, not implementations.
 
 # OO Patterns
 1. Strategy - defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
