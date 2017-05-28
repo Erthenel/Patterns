@@ -1,0 +1,11 @@
+.idea/
+.command_tmp
+classes
+testclasses
+javadoc
+atlassian-ide-plugin.xml
+intellij.testclasses
+intellij.classes
+target
+report
+.DS_STORE
