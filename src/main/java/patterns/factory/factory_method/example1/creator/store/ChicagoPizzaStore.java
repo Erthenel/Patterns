@@ -3,7 +3,7 @@ package patterns.factory.factory_method.example1.creator.store;
 import patterns.factory.factory_method.example1.creator.PizzaStore;
 import patterns.factory.factory_method.example1.product.pizza.Pizza;
 import patterns.factory.factory_method.example1.product.pizza.PizzaType;
-import patterns.factory.factory_method.example1.product.pizza.chicago.ChicagoStyleCheesePizza;
+import patterns.factory.factory_method.example1.product.pizza.ChicagoStyleCheesePizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override

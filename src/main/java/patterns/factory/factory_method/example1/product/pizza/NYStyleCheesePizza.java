@@ -1,4 +1,4 @@
-package patterns.factory.factory_method.example1.product.pizza.ny;
+package patterns.factory.factory_method.example1.product.pizza;
 
 import patterns.factory.factory_method.example1.product.pizza.Pizza;
 
