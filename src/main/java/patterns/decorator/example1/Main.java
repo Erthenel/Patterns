@@ -4,6 +4,7 @@ import patterns.decorator.example1.deco.Milk;
 import patterns.decorator.example1.deco.Mocha;
 import patterns.decorator.example1.deco.Soy;
 import patterns.decorator.example1.type.DarkRoast;
+import patterns.decorator.example1.type.Decaf;
 import patterns.decorator.example1.type.Espresso;
 
 public class Main {
@@ -17,5 +18,8 @@ public class Main {
         beverage2 = new Milk(beverage2);
         beverage2 = new Soy(beverage2);
         System.out.println("Order: " + beverage2.getDescription() + " $" + beverage2.cost());
+
+        Beverage beverage3 = new Mocha(new Soy(new Milk(new Decaf())));
+        System.out.println("Order: " + beverage3.getDescription() + " $" + beverage3.cost());
     }
 }
