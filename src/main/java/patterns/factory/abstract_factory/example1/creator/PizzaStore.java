@@ -1,7 +1,7 @@
-package patterns.factory.factory_method.example1.creator;
+package patterns.factory.abstract_factory.example1.creator;
 
-import patterns.factory.factory_method.example1.product.pizza.PizzaType;
-import patterns.factory.factory_method.example1.product.pizza.Pizza;
+import patterns.factory.abstract_factory.example1.product.pizza.Pizza;
+import patterns.factory.abstract_factory.example1.product.pizza.PizzaType;
 
 public abstract class PizzaStore {
     protected abstract Pizza createPizza(PizzaType type);
